@@ -1,0 +1,67 @@
+body { 
+    margin: 0; 
+    background-color: rgb(16,12,60);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    position: relative; /* Fixes the navbar to the top-left corner */
+    top: 0;
+
+}
+
+.links {
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links:hover{
+    color: grey;
+}
+
+#MyImage{
+    position: relative;
+    left: 265px;
+    display: block;
+    transform: translateY(-325px);
+}
+.AboutMe{
+    position: relative;
+    top: 65px;
+    margin-left: 20px;
+}
+.introtext{
+    color: white;
+    max-width: 250px;
+
+}
+.MainDiv{
+    margin-left: 7px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 90px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    background-color: rgb(28, 24, 78);
+}
+
+#MyWorkbtn{
+    padding: 10px;
+    background-color: rgb(256,4,20);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+#MyWorkbtn:hover{
+    color: rgb(256,4,20);
+    background-color: white;
+}
