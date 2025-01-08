@@ -26,3 +26,17 @@ body {
     color: white;
     margin-left: 10px;
 }
+
+.buttonstyle{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.buttonstyle:hover{
+    background-color: white;
+    color: green;
+}
