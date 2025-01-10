@@ -32,11 +32,33 @@ body {
     border-radius: 10px;
     background-color: green;
     color: white;
-    margin-left: 50px;
-    margin-top: 20px;
+    transform: translate(35px, 25px);
+    text-align: center;
+
 }
+
 
 .buttonstyle:hover{
     background-color: white;
     color: green;
 }
+
+.container{
+    margin-top: 25px;
+    border: solid 2.5px white;
+    width: 375px;
+    height: 275px;
+    border-radius: 10px;
+}
+.text{
+    color: white;
+    margin-left: 20px;
+}
+
+.imagestyle{
+    border-radius: 25px;
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+}
+
